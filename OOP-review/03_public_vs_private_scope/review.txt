@@ -1,0 +1,3 @@
+Untuk pemanggilan pada properti yang di private kita bisa menggunakan fungsi untuk return
+value dari fungsi yang telah dibuat. karena private property hanya bisa dipanggil di dalam
+class itu sendiri.

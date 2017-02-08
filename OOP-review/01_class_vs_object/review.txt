@@ -1,0 +1,3 @@
+class adalah kerangka dasar yang berisi fungsi" yang nantinya akan dipakai pada object.
+object merupakan hasil cetak/pemanggilan dari class. pemanggilannya bisa menggunakan
+new class yang mau dipanggin/digunakan.

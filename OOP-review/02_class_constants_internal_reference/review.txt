@@ -1,0 +1,3 @@
+Constants berbeda dengan variable biasa. Penulisannya tidak menggunakan $ yaitu langsung
+dituliskan. const nama_const = value. Nilai pada constanst adalah tetap, yaitu tidak bisa
+diubah pada saat program dijalankan.

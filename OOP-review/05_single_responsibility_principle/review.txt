@@ -1,0 +1,3 @@
+Yang dimaksud single responbility principle yaitu memecah suatu class atau memisah" fungsinya
+dan mengelompokkannya menjadi beberapa class sesuai dengan kebutuhan sehingga semua akan lebih
+terstruktur.

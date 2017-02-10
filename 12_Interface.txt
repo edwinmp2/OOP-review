@@ -1,0 +1,14 @@
+Interface memiliki konsep sama dengan Class yakni tidak ada kode-kode didalamnya. Dan hanya boleh ada Method dan Argument
+dan lagi tidak boleh ada kode didalam method-method tersebut.
+
+contoh :
+
+cara pemanggilan :
+class MyClass implements MyInterface{..}
+class MyClass implements MyInterface,MyInterface2,MyInterface3{..}
+
+cara penulisan :
+interface MyInterface{
+   public function test();
+   public function test2($param);
+}

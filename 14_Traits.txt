@@ -1,0 +1,26 @@
+Trait secara simple adalah kumpulan dari beberapa method yang ingin digunakan di dalam class lain.
+Trait ini tidak bisa di instantiated sendiri, jadi harus di panggil dalam sebuah class. Cara kerja
+Trait hanya seperti copy dan paste code selama run time. Yang artinya code Trait Share dicopy ke 
+dalam class Post dan Comment sehingga saat kamu membuat instant baru dari class tersebut maka method
+share() otomatis ada dalam class tersebut. 
+
+Perbedaan Trait dengan Abstract adalah Abstract class perlu yang namanya inheritance, sedangkan Trait tidak. 
+
+Perbedaan antara Trait dengan Interface yaitu:
+Sebuah Interface seperti sebuah kontrak yang menekankan bahwa object ini mampu melakukan fungsi ini
+dan itu sedangkan sebuah Trait memberikan object tersebut kemampuan untuk melakukan fungsi ini dan itu
+
+contoh penulisan :
+
+trait Share{
+	public function share($item)
+	{
+		return 'share this item';
+	} 
+}
+
+contoh pemanggilan :
+
+Class Post {
+	use Share;
+}

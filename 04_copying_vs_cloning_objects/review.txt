@@ -1,4 +1,0 @@
-Untuk penggunaan copy object dan mengganti salah satu value dari object yang telah di copy
-akan merubah value dari object yang di copy. Sedangkan ketika menggunakan clone dan melakukan
-perubahan pada value object yang telah di clone data yang pertamatidak akan mengalami perubahan,
-hanya data yang telah di clone saja.

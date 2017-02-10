@@ -1,0 +1,17 @@
+Inheritance adalah sebuah class yang dibuat berdasarkan class utama(parent). Class turunan dapat menggunakan property dan
+method yang ada pada class utama.
+
+Contoh :
+
+class namaClassutama {
+    public $propertiClassutama;
+
+    public function methodClassutama() {
+        ....
+    } 
+}
+
+class namaClassturunan extends namaClassutama {
+    public function methodClassturunan() {
+        ....
+}

@@ -1,0 +1,3 @@
+Pada copy object ketika kita mengganti salah satu value dari object yang telah di copy maka akan merubah value
+dari object yang di copy serta hasil copy. Sedangkan ketika menggunakan clone dan melakukan perubahan pada value object yang
+telah di clone data yang pertama tidak akan mengalami perubahan, hanya data yang telah di clone saja.

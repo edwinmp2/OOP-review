@@ -1,0 +1,31 @@
+Polymorphism adalah konsep fundamental dimana class-class mempunyai fungsi berbeda akan tetapi berbagi interface yang sama.
+
+Interface memiliki konsep sama dengan Class yakni tidak ada kode-kode didalamnya. Dan hanya boleh ada Method dan Argument
+dan lagi tidak boleh ada kode didalam method-method tersebut.
+
+contoh :
+
+cara pemanggilan :
+class MyClass implements MyInterface{..}
+class MyClass implements MyInterface,MyInterface2,MyInterface3{..}
+
+cara penulisan :
+interface MyInterface{
+   public function test();
+   public function test2($param);
+}
+
+Abstract Class biasanya dibuat untuk diturunkan ke Class lain dengan kata lain Abstract Class akan berisi semua hal paling
+general dari Class-Class anaknya. Seperti Class pada umumnya, Abstract Class juga bisa mempunyai properties,hak akses,dan
+method namun Abstract Class tidak bisa dibuatkan Object nya sendiri.
+
+contoh :
+
+cara pemanggilan :
+class Manusia extends Mamalia{..}
+
+cara penulisan :
+abstract class Mamalia{
+    abstract protected function berJalan($pakai);
+    abstract protected function makan($apaan); //abstract method
+}

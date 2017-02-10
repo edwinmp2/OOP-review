@@ -1,0 +1,13 @@
+Keyword static ialah method yang dapat dipanggil secara langsung tanpa harus membuat object terlebih dahulu.
+
+contoh : 
+
+class Belajar{
+    public static function Pengurangan($a,$b)
+    {
+           $c = $a - $b;
+           return $c;
+     }
+}
+
+$hasil = Belajar::Pengurangan(500,100);

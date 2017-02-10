@@ -1,0 +1,18 @@
+Pengertian overloading pada class PHP ditujukan untuk pembuatan property yang dinamis pada class PHP.
+Dengan overloading pada class PHP ini kita dapat membuat public variable baru maupun public method baru
+pada saat pembuatan object. Penggunaan overloading pada class PHP ini memungkinkan interaksi dengan
+variable dan method yang tidak didefinisikan sebagai public.
+
+Method-method yang digunakan untuk overloading adalah
+
+public void __set ( string $name, mixed $value )
+Method __set ini merupakan magic function  yang bisa digunakan untuk memberikan nilai suatu propery tertentu.
+ 
+public mixed __get ( string $name )
+Seperti yang kita bisa duga, method __get ini merupakan magic function untuk mendapatkan nilai suatu property tertentu.
+ 
+public bool __isset ( string $name )
+Magic function __isset ini merupakan function yang digunakan untuk mengecek apakah suatu property sudah diset atau belum.
+    
+public void __unset ( string $name )
+Seperti namanya, magic function __unset ini digunakan untuk melakukan unset pada suatu property.

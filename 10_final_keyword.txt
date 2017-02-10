@@ -1,0 +1,3 @@
+Keyword final dapat kita terapkan dalam method maupun dalam class. Jika kita menerapkan keyword final pada
+class maka class tidak bisa diturunkan lagi. Jika kita menerapkan keyword final bukan pada class tetapi
+pada method maka class dapat diturunkan tetapi method tersebut tidak bisa di-override.

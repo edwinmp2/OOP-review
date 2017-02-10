@@ -1,0 +1,4 @@
+Magic method ialah salah satu fitur di php, yaitu method dengan fungsi khusus yang penulisannya menggunakan
+doble underscore, misal __construct(). Method ini digunakan untuk memberikan response pada suatu event atau
+kejadian-kejadian tertentu.
+
